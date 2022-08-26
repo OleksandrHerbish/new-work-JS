@@ -1,5 +1,4 @@
-
-let numberOfFilms = +prompt ("сколько фильмов ви уже пепесмотрели?", "");
+const numberOfFilms = +prompt ("сколько фильмов ви уже пепесмотрели?", "");
 
 const personalMovieDb = {
     count: "numberOfFilms",
@@ -19,3 +18,6 @@ personalMovieDb.movies[asskUserA] = asskUserB;
 personalMovieDb.movies[asskUserC] = asskUserD;
 
 console.log (personalMovieDb);
+
+
+alert ("hello");
